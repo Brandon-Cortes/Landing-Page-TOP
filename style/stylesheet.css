@@ -89,7 +89,7 @@ body {
   font-size: 14px;
 }
 
-.mid-white{
+.mid-white {
   margin-top: 100px;
   margin-bottom: 100px;
 }
@@ -121,27 +121,27 @@ body {
   border-radius: 15px;
 }
 
-.square-text{
+.square-text {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-.text{
+.text {
   max-width: 150px;
   text-align: center;
 }
 
-.gray-area{
-background-color: #e5e7eb;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 100px;
+.gray-area {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
 }
 
-#insp{
+#insp {
   font-size: 36px;
   font-weight: 100;
   font-style: italic;
@@ -149,9 +149,56 @@ padding: 100px;
   color: #1f2937;
 }
 
-#Thor{
+#Thor {
   margin: 10px;
   display: flex;
   justify-content: flex-end;
   font-weight: bolder;
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 100px
+}
+
+#blue-back {
+  background-color: #3882f6;
+  border-radius: 5px;
+  width: 700px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .blue-text-left{
+    padding-right: 100px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  #action{
+    font-weight: bolder;
+  }
+
+  #there{
+    font-weight: lighter;
+    font-size:x-small;
+  }
+
+  .button-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 24px;
+    width: 80px;
+    border-color: white;
+    border-style: solid;
+    background-color: #3882f6;
+    border-radius: 5px;
+    color: white;
+  }
